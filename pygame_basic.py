@@ -4,6 +4,11 @@ from pygame.locals import *
 def main():
 
     '''初期設定'''
+    pygame.init()
+    screen = pygame.display.set_model((600,400))
+    pygame.display.set_caption('Hello World')
+
+    clock = pygame.time.Clock()
 
     '''登場する人/物/背景の作成'''
        
